@@ -1,0 +1,33 @@
+.calculator{
+    width: 420px;
+    background-color: skyblue;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    margin-top: 55px;
+}
+.calculator input{
+    width: 200px;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    margin-top: 11px;
+    border-radius: 3px;
+}
+
+.calculator button{
+    width: 90px;
+    padding: 7px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+   font-size: 20px;
+   border: none;
+   border-radius: 4px;
+
+   
+}
+.calculator .equal{
+    background: skyblue;
+    color: white;
+}

@@ -1,0 +1,77 @@
+/* .tabs {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:skyblue;
+  display:flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px 0;
+  z-index: 1000;
+  box-shadow:skyblue
+}
+
+.tabs h2 {
+  color: red;
+  cursor: pointer;
+  margin: 0;
+  font-size: 18px;
+}
+
+.tabs h2:hover {
+  color: black;
+  text-decoration:line-through;
+}
+.content {
+  padding-top: 100px; 
+  display: flex;
+  justify-content: center;
+} */
+.main.container {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px ;
+  z-index: 1000;
+}
+
+/* Buttons in the navbar */
+.button.container button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button.container button:hover {
+  background-color: red;
+}
+
+
+.render.container {
+  margin-top: 20px;
+  margin-left: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
