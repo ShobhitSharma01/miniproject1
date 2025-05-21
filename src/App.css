@@ -34,6 +34,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 50px;
 }
 
 .button.container {
@@ -50,18 +51,18 @@
 }
 
 /* Buttons in the navbar */
-.button.container button {
+.button.container li {
   background-color: green;
-  color: white;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s;
+  
 }
 
-.button.container button:hover {
+.button.container li:hover {
   background-color: red;
 }
 
@@ -75,3 +76,21 @@
   padding: 20px;
 }
 
+.footer{
+  height: 50px;
+  display: flex;
+  margin-left: 50%;
+  padding: 0px;
+  gap: 10px;
+  
+}
+
+.footer
+button{
+  background-color: aquamarine;
+  align-items: center;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  
+}

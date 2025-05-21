@@ -63,8 +63,8 @@ return(
     </form>
     <div className="outerDiv">
     <ul>
-{list}
 
+{list}
  
     </ul>
     </div>
